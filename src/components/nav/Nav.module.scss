@@ -2,6 +2,8 @@
    height: 80px;
    font-size: 14px;
    top: 0;
+   background-color: #fff;
+   z-index: 9999;
 
    .logo {
         width: 60px;
@@ -16,7 +18,7 @@
 
         .menuBar {
             width: 25px;
-            height: 3px;
+            height: 1px;
             display: block;
             background-color: black;
             position: absolute;
@@ -28,7 +30,7 @@
             &::before, &::after {
                 content: '';
                 width: 100%;
-                height: 3px;
+                height: 1px;
                 display: block;
                 background-color: black;
                 position: absolute;
@@ -96,8 +98,8 @@
       
         .categoryItem {
             padding: 0 20px;
-             overflow: hidden;
-
+            overflow: hidden;
+            white-space: nowrap;
         }
 
         &.on {
@@ -147,6 +149,7 @@
 
                 &::placeholder {
                     color: #fff;
+                    font-size: 14px;
                 }
 
                 &:focus {
@@ -209,6 +212,8 @@
 
         .title {
             font-weight: 300;
+            font-size: 14px;
+            margin: 0;
         }
 
         ul:last-child{
