@@ -1,0 +1,166 @@
+.leftFooter, .rightFooter {
+    max-height: 1000px;
+    padding: 100px 90px;
+
+    @media (max-width: 575px) {
+        padding: 40px 30px;
+    }
+}
+
+.leftFooter {
+    background-color: #f3efeb;
+    
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .infoSection {
+        margin: 20px 0;
+
+        div {
+            padding: 5px 0;
+        }
+
+        img {
+            width: 25px;
+            margin-left: 10px;
+        }
+    }
+
+    .socialMedia {
+        margin: 20px 0;
+
+        img {
+            margin-right: 15px;
+            width: 40px;
+        }
+    }
+
+    button {
+        width: 200px;
+        border: 1px solid black;
+        background-color: transparent;
+        padding: 10px 0;
+        margin: 10px 0;
+
+        @media (max-width: 575px) {
+            width: 100%;
+        }
+    }
+
+    .payments {
+        margin: 20px 0;
+
+        img {
+            margin-right: 15px;
+            width: 50px;
+        }
+    }
+
+    .rights {
+        font-size: 12px;
+        color: grey;
+    }
+}
+
+.rightFooter {
+    background-color: #594e45;
+    color: #fff;
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .formTitle {
+        margin-bottom: 10px;
+        font-size: 20px
+    }
+
+    .containerCheckbox *, .containerCheckbox *::before, .containerCheckbox *::after {
+        box-sizing: content-box !important;
+    }
+    
+    .containerCheckbox input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+       
+    }
+    
+    .containerCheckbox span {
+        font-size: 20px;
+    }
+    
+    .containerCheckbox {
+        display: table;
+        position: relative;
+        padding-left: 1.8rem;
+        cursor: pointer;
+        margin-bottom: .5rem;
+    }
+    
+    .containerCheckbox input[type="checkbox"] ~ .input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background: #594e45;
+        border: 1px solid rgba(0, 0, 0, 1);
+    }
+    
+    .containerCheckbox input[type="checkbox"] ~ .input::after {
+        content: '';
+        position: absolute;
+        display: none;
+        left: 10px;
+        top: 5px;
+        width: 4px;
+        height: 10px;
+        border: 1px solid rgba(255, 115, 0, 1);
+        border-width: 0 2px 2px 0;
+        transition: background 250ms;
+        transform: rotate(45deg);
+    }
+
+    .containerCheckbox input:checked ~ .input::after {
+        display: block;
+    }
+
+    .checkboxOption {
+        margin-left: 10px;
+    }
+
+    .sendBar {
+        position: relative;
+        width: 100%;
+        margin: 30px 0;
+
+        input{
+            background-color: #594e45;
+            border: 1px solid black;
+            border-radius: 0;
+            width: 100%;
+            padding: 5px 40px 5px 10px;
+            color: #fff;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            position: absolute;
+            right: 1px;
+            top: 1px;
+            background-color: transparent;
+            width: 34px;
+            height: 34px;
+        }
+
+        img {
+            width: 20px;
+        }
+    }
+}

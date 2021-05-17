@@ -8,6 +8,9 @@ import {
   PurchaseInformation,
   CategoriesTop,
   CategoriesBottom,
+  Recommended,
+  HandCraftInfo,
+  Footer,
 } from "./components/Components";
 
 const App = () => {
@@ -18,6 +21,9 @@ const App = () => {
       <PurchaseInformation />
       <CategoriesTop />
       <CategoriesBottom />
+      <Recommended />
+      <HandCraftInfo />
+      <Footer />
     </>
   );
 };
