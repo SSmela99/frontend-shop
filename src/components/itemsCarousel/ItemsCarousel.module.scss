@@ -1,0 +1,88 @@
+.main {
+    padding: 20px 0;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+
+    .container {
+        width: 100%;
+        display: flex;
+        padding: 0 20px;
+        min-height: 400px;
+
+        @media (max-width: 991px) {
+            min-height: 350px;
+        }
+
+        @media (max-width: 575px) {
+            padding: 0 5px;
+        }
+    
+        .box {
+            width: 300px;
+            min-height: 100%;
+            border-radius: 1px solid black;
+            position: relative;
+            text-align: center;
+
+            @media (max-width: 575px) {
+                width: 280px;
+            }
+
+            @media (max-width: 750px) {
+                width: 250px;
+            }
+
+            @media (max-width: 650px) {
+                width: 200px;
+            }
+
+            @media (max-width: 500px) {
+                width: 240px;
+            }
+
+            @media (max-width: 380px) {
+                width: 220px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .new {
+                position: absolute;
+                top: 40px;
+                left: 20px;
+                padding: 6px 10px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+                background-color: rgba(82, 81, 81, 0.8);
+
+                @media (max-width: 650px) {
+                    top: 20px;
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .name {
+            font-size: 18px;
+            padding: 5px 0;
+            font-weight: 700;
+
+            @media (max-width: 650px) {
+                font-size: 14px;
+            }
+        }
+
+        .price {
+            font-size: 15px;
+            font-weight: 500;
+
+            @media (max-width: 650px) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
