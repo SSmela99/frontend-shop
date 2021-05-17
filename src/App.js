@@ -6,7 +6,8 @@ import {
   Navbar,
   MainSection,
   PurchaseInformation,
-  Categories,
+  CategoriesTop,
+  CategoriesBottom,
 } from "./components/Components";
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
       <Navbar />
       <MainSection />
       <PurchaseInformation />
-      <Categories />
+      <CategoriesTop />
+      <CategoriesBottom />
     </>
   );
 };
