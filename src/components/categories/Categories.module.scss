@@ -3,7 +3,7 @@
     max-height: 1100px;
     min-height: 600px;
 
-    .menCategory, .womenCategory {
+    .menCategory, .womenCategory, .goodsCategory, .journalCategory {
         width: 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -21,6 +21,15 @@
     
     .womenCategory {
         background-image: url('../../assets/categories/women.jpg');
+    }
+
+    .goodsCategory {
+        background-image: url('../../assets/categories/goods.jpg');
+    }
+
+    .journalCategory {
+        background-image: url('../../assets/categories/journal.jpg');
+        background-position: center;
     }
 
     .title {
