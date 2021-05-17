@@ -5,4 +5,5 @@ export { default as CategoriesTop } from "./categories/CategoriesTop";
 export { default as CategoriesBottom } from "./categories/CategoriesBottom";
 export { default as Recommended } from "./recommended/Recommended";
 export { default as HandCraftInfo } from "./handCraftInfo/HandCraftInfo";
+export { default as ItemsCarousel } from "./itemsCarousel/ItemsCarousel";
 export { default as Footer } from "./footer/Footer";

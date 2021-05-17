@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Logo Hood Bark",
+        "category": "Unisex Casualwear",
+        "price": 399.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/BARKFRONT_0bf871a9-6894-4b15-8d34-e8cf200e3d4f_750x.jpg?v=1618320794",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/ecom20.04.21-231_750x.jpg?v=1619792379"
+    },
+    {
+        "id": 2,
+        "name": "Basic Logo Hood Natural",
+        "category": "Unisex Casualwear",
+        "price": 399.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/NATURALFRONT_bc34e86a-59f8-4268-8001-c77652b71e00_750x.jpg?v=1618319831",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/ecom20.04.21-208_750x.jpg?v=1619792615"
+    },
+    {
+        "id": 3,
+        "name": "Basic Logo Hood Black",
+        "category": "Unisex Casualwear",
+        "price": 399.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/BLACKFRONT_f97c4e65-4d07-4aac-9aec-b26d4dd9fc25_750x.jpg?v=1618320669",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/ecom20.04.21-193_750x.jpg?v=1619783257"
+    },
+    {
+        "id": 4,
+        "name": "Basic Logo Sweatshirt Black",
+        "category": "Unisex Casualwear",
+        "price": 329.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/BLACKFRONT_66d68308-6faf-45a5-a68a-340645a9bb6a_750x.jpg?v=1615906627",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/SSXXIecom-58_750x.jpg?v=1616675186"
+    },
+    {
+        "id": 5,
+        "name": "Basic Llogo Sweatshirt Jungle",
+        "category": "Unisex Casualwear",
+        "price": 329.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/JUNGLEFRONT_3864be52-d772-4e7b-b0bf-0a8cabee337d_750x.jpg?v=1614943381",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/DSCF9613_750x.jpg?v=1614967503"
+    },
+    {
+        "id": 6,
+        "name": "Basic Logo Sleeeve White",
+        "category": "Unisex Casualwear",
+        "price": 279.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/WHITEFRONT_91f630c5-2c39-4aba-bb64-b58f532ee052_750x.jpg?v=1614853625",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/SSXXIecom-104_750x.jpg?v=1616669785"
+    },
+    {
+        "id": 7,
+        "name": "Basic Logo Sleeeve Sky",
+        "category": "Unisex Casualwear",
+        "price": 279.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/SKYFRONT_750x.jpg?v=1618320079",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/ecom20.04.21-163_750x.jpg?v=1619792241"
+    },
+    {
+        "id": 8,
+        "name": "Basic Logo t-shirt Black",
+        "category": "Unisex Casualwear",
+        "price": 189.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/Black_c1296644-e776-4db0-9cfa-40593ca04264_750x.jpg?v=1600699737",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/WAWWAAW20ECOM-20_750x.jpg?v=1600700011"
+    },
+    {
+        "id": 9,
+        "name": "Basic Logo t-shirt Black Khaki",
+        "category": "Unisex Casualwear",
+        "price": 189.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/KHAKIFRONT_750x.jpg?v=1614853507",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/SSXXIecom-114_750x.jpg?v=1616670262"
+    },
+    {
+        "id": 10,
+        "name": "Basic Logo t-shirt Black Lime",
+        "category": "Unisex Casualwear",
+        "price": 189.00,
+        "firstImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/LIMEFRONT_4e08bc93-ee69-44ca-8005-8ab44b1388bb_750x.jpg?v=1618320671",
+        "secondImage": "https://cdn.shopify.com/s/files/1/1377/2863/products/LIMEBACK_373b3668-ec6d-44ac-a4a6-831f8a3c86d9_750x.jpg?v=1618320432"
+    }
+]
+
