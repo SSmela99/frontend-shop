@@ -1,0 +1,136 @@
+.main {
+    background-color: #f3efeb;
+    position: relative;
+    margin-top: 80px;
+
+    @media (max-width: 991px) {
+        margin-top: 60px;
+    }
+
+    .content {
+        position: relative;
+        padding: 40px 0;
+
+        .sticky {
+            position: sticky;
+            top: 120px;
+
+            @media (max-width: 991px) {
+                top: 60px;
+            }
+        }
+
+        .leftImages {
+            min-width: 10%;
+            position: relative;
+            
+        
+            .leftImage {
+                max-width: 100px;
+                margin: 10px 10px 20px 10px;
+                border: 1px solid black;
+            }
+        }
+
+        .bigImages {
+            flex: 1;
+
+            .bigImage {
+                width: 80%;
+                padding: 20px 0;
+            }
+        }
+
+        .productDetails {
+            width: 40%;
+            padding: 20px;
+
+            .price {
+                font-size: 20px;
+                margin: 20px 0;
+            }
+
+            .description {
+                font-size: 14px;
+                font-weight: 300;
+                color: grey;
+            }
+
+            .buttons {
+                margin: 40px 0;
+
+                .buttonText {
+                    margin-right: 10px;
+                }
+
+                .purchaseButton, .wishButton {
+                    width: 85%;
+                    background-color: #c39d65;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    font-size: 18px;
+                    font-weight: 500;
+
+                    img {
+                        width: 25px;
+                    }    
+                }
+
+                .wishButton {
+                    width: 15%;
+                    margin-left: 20px;
+                    text-align: center;
+                }
+            }
+
+            .icons {
+                margin: 20px 0;
+
+                .icon {
+                    text-align: center;
+                    width: 120px;
+                }
+
+                img {
+                    width: 25px;
+                }
+
+                .textIcon {
+                    margin: 10px 0;
+                }
+            }
+
+            .tab {
+                border-bottom: 1px solid grey;
+                margin: 10px 0;
+
+                .description {
+                    margin: 20px 0;
+                }
+                
+                .cross {
+                    width: 10px;
+                    height: 2px;
+                    background-color: black;
+                    display: block;
+                    position: absolute;
+        
+                    &::after {
+                        width: 10px;
+                        height: 2px;
+                        background-color: black;
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        transform: rotate(90deg);
+                    }
+                }   
+            }
+
+           
+        }
+    }
+}
