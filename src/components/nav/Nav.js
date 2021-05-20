@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import styles from "./Nav.module.scss";
+import { Link } from "react-router-dom";
 
+import styles from "./Nav.module.scss";
 import clsx from "clsx";
 import { logo, search, account, heart, cart } from "assets/Exports";
 
@@ -54,7 +55,9 @@ const Nav = () => {
               >
                 <span className={styles.menuBar}></span>
               </span>
-              <img src={logo} alt="logo" className={styles.logo} />
+              <Link to="/">
+                <img src={logo} alt="logo" className={styles.logo} />
+              </Link>
               <div className="h-100 d-none d-lg-block">
                 <ul className="d-flex align-items-center h-100">
                   <li
