@@ -1,15 +1,20 @@
 .main {
-    background-color: #f3efeb;
+    background-color: #E3D0BD;
     position: relative;
     margin-top: 80px;
 
     @media (max-width: 991px) {
         margin-top: 60px;
+        padding-bottom: 30px;
     }
 
     .content {
         position: relative;
         padding: 40px 0;
+
+        @media (max-width: 991px) {
+            padding: 10px 0;
+        }
 
         .sticky {
             position: sticky;
@@ -45,6 +50,17 @@
             width: 40%;
             padding: 20px;
 
+            @media (max-width: 991px) {
+                width: 100%;
+                padding: 5px;
+            }
+
+            h3 {
+                @media (max-width: 575px) {
+                    font-size: 18px;
+                }
+            }
+
             .price {
                 font-size: 20px;
                 margin: 20px 0;
@@ -61,6 +77,10 @@
 
                 .buttonText {
                     margin-right: 10px;
+
+                    @media (max-width: 575px) {
+                        font-size: 14px;
+                    }
                 }
 
                 .purchaseButton, .wishButton {
@@ -76,6 +96,10 @@
 
                     img {
                         width: 25px;
+
+                        @media (max-width: 575px) {
+                            width: 18px;
+                        }
                     }    
                 }
 
@@ -83,6 +107,10 @@
                     width: 15%;
                     margin-left: 20px;
                     text-align: center;
+
+                    @media (max-width: 575px) {
+                        width: 25%;
+                    }
                 }
             }
 
@@ -108,7 +136,13 @@
                 margin: 10px 0;
 
                 .description {
-                    margin: 20px 0;
+                    margin: 5px 0;
+                    height: 0;
+                    overflow: hidden;
+
+                    &.on {
+                       height: fit-content; 
+                    }
                 }
                 
                 .cross {
@@ -117,6 +151,11 @@
                     background-color: black;
                     display: block;
                     position: absolute;
+                    right: 5px;
+
+                    &.on {
+                        transform: rotate(45deg);
+                    }
         
                     &::after {
                         width: 10px;
@@ -129,8 +168,19 @@
                     }
                 }   
             }
-
-           
         }
+    }
+
+    .carousel {
+       max-height: 400px;
+       margin-bottom: 20px;
+
+       .leftImage {
+           max-height: 400px;
+
+           @media (max-width: 500px) {
+               width: 200px;
+           }
+       }
     }
 }

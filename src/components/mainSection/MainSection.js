@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import clsx from "clsx";
 import styles from "./MainSection.module.scss";
 
 const MainSection = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="w-100">
       <div className={styles.margin} />

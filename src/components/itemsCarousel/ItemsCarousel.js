@@ -5,7 +5,7 @@ import clsx from "clsx";
 import styles from "./ItemsCarousel.module.scss";
 import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
 
-const ItemsCarousel = ({ data }) => {
+const ItemsCarousel = React.memo(({ data }) => {
   return (
     <div className={clsx("w-100", styles.main)}>
       <div className={styles.container}>
@@ -115,6 +115,6 @@ const ItemsCarousel = ({ data }) => {
       </div>
     </div>
   );
-};
+});
 
 export default ItemsCarousel;
