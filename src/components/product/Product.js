@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useLocation } from "react-router-dom";
 
 import clsx from "clsx";
@@ -20,7 +20,7 @@ const Product = ({ products }) => {
   const id = parseInt(location.pathname.split("/").pop());
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    setTimeout(window.scrollTo(0, 0), 100);
   }, []);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const Product = ({ products }) => {
     setProduct(exist);
   }, [id, products]);
 
-  const MyCarousel = () => (
+  const MyCarousel = React.memo(() => (
     <div className={clsx("d-block d-lg-none", styles.carousel)}>
       <Carousel plugins={["infinite", "arrows"]}>
         <img
@@ -45,7 +45,7 @@ const Product = ({ products }) => {
         <img src={placeholder} alt="product" className={styles.leftImage} />
       </Carousel>
     </div>
-  );
+  ));
 
   return (
     <main className={clsx("w-100", styles.main)}>
