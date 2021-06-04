@@ -1,6 +1,6 @@
-#Front of Shop made in React, using bootstrap and scss modules.
+# Front of Shop made in React, using bootstrap and scss modules.
 
-Site: https://adoring-wozniak-84271b.netlify.app/
+# Site: https://adoring-wozniak-84271b.netlify.app/
 
 # Getting Started with Create React App
 
