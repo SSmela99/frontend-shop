@@ -1,5 +1,5 @@
 .main {
-    padding: 20px 0;
+    padding: 30px 0;
     width: 100%;
     background-color: rgb(242, 242, 242);
 
@@ -7,11 +7,6 @@
         width: 100%;
         display: flex;
         padding: 0 20px;
-        min-height: 400px;
-
-        @media (max-width: 991px) {
-            min-height: 350px;
-        }
 
         @media (max-width: 575px) {
             padding: 0 5px;
@@ -44,7 +39,7 @@
             }
 
             img {
-                width: 100%;
+                width: 60%;
             }
 
             .new {
